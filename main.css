@@ -15,6 +15,7 @@
     border: 10px solid rgb(228, 204, 67);
     border-radius: 15px;
     opacity: 1;
+    cursor: pointer;
   }
   table.one {
     border-collapse:separate;
