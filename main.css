@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(90, 201, 186);
+  }  
+  h1{  
+      text-align: center;  
+      color: rgb(255, 255, 255);  
+  } 
+  img{
+    border: 1px solid rgb(226, 147, 147);
+    float: center;
+    width: auto;
+    opacity: 0.6;
+  }
+  img:hover {
+    border: 10px solid rgb(228, 204, 67);
+    border-radius: 15px;
+    opacity: 1;
+  }
+  table.one {
+    border-collapse:separate;
+    width:400px;
+    border-spacing:10px;
+ }
+ table.two {
+    border-collapse:separate;
+    width:400px;
+    border-spacing:10px 50px;
+ }
