@@ -1,16 +1,34 @@
+/* syntaxe :selector { property: value }*/
+/* mesure : p {padding: 25px;} */
+/* color : #0000 rgb(0,0,0) black*/
+
+
 *{
-    background-color: rgb(90, 201, 186);
+    background-color: rgb(90, 201, 186); /* background*/
   }  
   h1{  
+      /*text*/
       text-align: center;  
+      text-shadow:4px 4px 8px blue;
+      text-decoration:underline;
+      letter-spacing:5px;
       color: rgb(255, 255, 255);  
+
+    /*font*/
+      font-family:georgia,garamond,serif;
   } 
+
+  /* Using Images */
   img{
     border: 1px solid rgb(226, 147, 147);
     float: center;
-    width: auto;
     opacity: 0.6;
+<<<<<<< Updated upstream
     /* visibility:hidden; */
+=======
+    width: 400px;
+    height:222px
+>>>>>>> Stashed changes
   }
   img:hover {
     border: 10px solid rgb(228, 204, 67);
@@ -19,12 +37,21 @@
     /* cursor */
     cursor: pointer;
   }
+  /* Links */
+  a:link {color: #0d2fc7}
+  a:visited {color: #1ae01a}
+  a:hover {color: #FFCC00}
+  a:active {color: #FF00CC}
+  
+  /*table*/
   table.one {
+    border-style:dotted; 
     border-collapse:separate;
     width:400px;
     border-spacing:10px;
  }
  table.two {
+  border-style:solid;
     border-collapse:separate;
     width:400px;
     border-spacing:10px 50px;
